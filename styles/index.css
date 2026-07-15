@@ -1273,6 +1273,15 @@ font-family: 'Gilroy', sans-serif;
     gap: 12px;
 }
 
+.review__author-rating p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #1F2937;
+}
+
 .review__date {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
