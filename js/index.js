@@ -37,11 +37,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const lockBodyScroll = () => {
+            const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
             document.body.style.overflow = 'hidden';
+            document.body.style.paddingRight = scrollbarWidth + 'px';
         };
 
         const unlockBodyScroll = () => {
             document.body.style.overflow = '';
+            document.body.style.paddingRight = 0;
         };
 
         const handleOutsideClick = (event) => {
